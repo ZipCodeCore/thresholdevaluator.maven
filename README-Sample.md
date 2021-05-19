@@ -1,12 +1,13 @@
-# Project Title
+# ThresholdEvaluator
 
 * **Objective**
-    * To create a product which ...
+    * To create a static and instanced conditional evaluator
 * **Purpose**
-    * To gain familiarity the following features ...
+    * To gain familiarity conditional operators
 * **Description**
     * This application has been provisioned with JUnit tests and boilerplate classes, and method stubs.
     * Complete the method-stub implementation to achieve 100% test-pass rate.
+    * Ensure that you [read the java docs](https://zipcoder.github.io/maven.thresholdevaluator/docs/index.html) of this project
 
 
 
