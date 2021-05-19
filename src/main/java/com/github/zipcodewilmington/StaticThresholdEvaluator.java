@@ -2,7 +2,7 @@ package com.github.zipcodewilmington;
 
 public interface StaticThresholdEvaluator {
     /**
-     * Write a method named `isThresholdReached` which returns `true` if
+     * Write a method named `isThresholdExceeding` which returns `true` if
      * its second integer parameter, `limit`, is less than
      * its first integer parameter, `threshold`.
      *

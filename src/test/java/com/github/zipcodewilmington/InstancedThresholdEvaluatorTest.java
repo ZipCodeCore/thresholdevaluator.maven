@@ -41,7 +41,7 @@ public class InstancedThresholdEvaluatorTest {
         thresholdEvaluator.setThreshold(thresholdToBeSet);
 
         // when
-        boolean actual = thresholdEvaluator.isThresholdExceeding(thresholdOffset, valueToCompareAgainstThreshold);
+        boolean actual = thresholdEvaluator.isThresholdExceeding(valueToCompareAgainstThreshold);
 
         // then
         Assertions.assertEquals(expected, actual);
