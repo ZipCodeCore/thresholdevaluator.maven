@@ -1,9 +1,11 @@
-package com.github.zipcodewilmington;
+package com.github.zipcodewilmington.sample;
 
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
+@Disabled
 public class PersonTest {
 
     @ParameterizedTest
@@ -12,7 +14,7 @@ public class PersonTest {
         // given
         String expected = firstName;
         Person person = new Person();
-        PersonInterface personInterface = (PersonInterface)person;
+        PersonInterface personInterface = (PersonInterface) person;
         personInterface.setFirstName(expected);
 
         // when
@@ -29,7 +31,7 @@ public class PersonTest {
         // given
         String expected = lastName;
         Person person = new Person();
-        PersonInterface personInterface = (PersonInterface)person;
+        PersonInterface personInterface = (PersonInterface) person;
         personInterface.setLastName(expected);
 
         // when
@@ -46,7 +48,7 @@ public class PersonTest {
         // given
         Integer expected = age;
         Person person = new Person();
-        PersonInterface personInterface = (PersonInterface)person;
+        PersonInterface personInterface = (PersonInterface) person;
         personInterface.setAge(expected);
 
         // when
